@@ -1,12 +1,60 @@
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
+    background-image: url("ckt4.jpg");
+    /* background-position: 50px; */
+    /* background-size: 4500px; */
+    
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+  
+.btn{
+  margin-left: 10px;
+  margin-left: 10px;
+ 
+}
+.text{
+  color: rgb(208, 243, 126);
+  font-family:'Times New Roman', Times, serif
+}
+.lead{
+  color: rgb(235, 113, 113);
+  font-family:'Times New Roman', Times, serif
+  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
   
   html {
     height: -webkit-fill-available;
+    scroll-behavior: smooth;
   }
+
+ .pHome{
+margin-left: 5px ;
+margin-right: 5px ;
+color: rgb(181, 138, 230);
+ }
+.pCV{
+  margin-left: 5px ;
+  margin-right: 5px ;
+  color: rgb(181, 138, 230);
   
+   }
+   /* .pContact{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(181, 138, 230);
+     }
+     .pMore{
+      margin-left: 10px ;
+      margin-right: 10px ;
+      
+       } */
   main {
     display: flex;
     flex-wrap: nowrap;
@@ -87,3 +135,34 @@ body {
   
   .fw-semibold { font-weight: 600; }
   .lh-tight { line-height: 1.25; }
+
+  .offcanvas{
+
+    background-image: url("msg.jpg");
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.accordion-header {
+  display: block;
+  margin: -10px -15px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.accordion-button {
+  background-color:cadetblue;
+  margin-top: -15px;
+  margin-bottom: -24px;
+  
+}
